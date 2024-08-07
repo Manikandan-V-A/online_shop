@@ -1,0 +1,108 @@
+.Headphone-left{
+    flex-basis: 50%;
+    margin-top: 0px;
+}
+.Headphone-right{
+    flex-basis: 50%;
+    margin-top: 0px;
+       text-align: right;
+}
+
+.Headphone-right{
+    margin-top: 22%;
+}
+.Headphone-right h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.Headphone-right h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.Headphone-right h3{
+    font-size: 30px;
+}
+
+.Headphone-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.Headphone-img{
+    height: 90%;
+    width: 100%;
+    margin-top: 10%;
+}
+.Headphone-main{
+    height: 90vh;
+    padding: 10px 10%;
+    background: linear-gradient(#00aeff04,#ff910041,#ffd0000a);
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    .Headphone-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .Headphone-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Headphone-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .Headphone-right{
+        margin-top: 15%;
+    }
+    .Headphone-img{
+        height: 50%;
+        width: 50%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Headphone-main{
+        padding: 10px 10%;
+    }
+    .Headphone-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Headphone-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+    }
+    .Headphone-right{
+        margin-top: 15%;
+    }
+    .Headphone-right h1{
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .Headphone-right h1 span{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .Headphone-right h3{
+        font-size: 20px;
+    }
+    .Headphone-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+}

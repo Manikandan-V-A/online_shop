@@ -1,0 +1,106 @@
+.tws-left{
+    flex-basis: 50%;
+}
+.tws-right{
+    flex-basis: 50%;
+    margin-top: 0px;
+}
+
+.tws-left{
+    margin-top: 17%;
+}
+.tws-left h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.tws-left h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.tws-left h3{
+    font-size: 30px;
+}
+
+.tws-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.tws-img{
+    height: 80%;
+    width: 100%;
+    margin-top: 20%;
+}
+.tws-main{
+    height: 90vh;
+    padding: 10px 10%;
+    background: linear-gradient(#00aeff2c,#00aeff41,#fcfcfc2f);
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    .tws-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .tws-left{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .tws-right{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .tws-left{
+        margin-top: 15%;
+    }
+    .tws-img{
+        height: 50%;
+        width: 50%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .tws-main{
+        padding: 10px 10%;
+    }
+    .tws-left{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .tws-right{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+    }
+    .tws-left{
+        margin-top: 15%;
+    }
+    .tws-left h1{
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .tws-left h1 span{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .tws-left h3{
+        font-size: 20px;
+    }
+    .tws-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+}

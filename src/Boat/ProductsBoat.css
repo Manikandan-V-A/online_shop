@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+
+}
+.container-Card{
+    padding: 10px 10%;
+}
+.Product-main-box{
+    color: red;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    grid-gap: 10px;
+} 
+.container-Card h2{
+    font-size: 30px;
+    font-family: 'Metropolis' sans-serif;
+}
+.container-Card h2 span{
+    font-size: 35px;
+    font-weight: bold;
+}
+.rs{
+    font-size: 35px;
+    font-weight: bold;
+    border-bottom: 3px solid red;
+    border-radius: 1px;
+}
+
+.card-img{
+    /* background-color: bisque; */
+    display: flex;
+    border-radius: 9px 9px 0px 0px ;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; 
+}
+.Product-img1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* background-color: #a12d2d; */
+} 
+.Product-img1 img{
+    width: 100%;
+    margin-top: 10px;
+    padding-bottom: 10px;
+    height: 100%;
+    border-radius: 9px 9px 0px 0px ;
+}
+
+/* ------------------------------ Actor ------------------------------------ */
+
+.Product-box{ 
+    color:black;
+    /* background-color: rgba(223, 223, 223, 0.288);
+    border: 1px solid rgba(163, 163, 163, 0.247); */
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.Product-main-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    /* background-color: rgb(92, 164, 192); */
+}
+.Product-name{
+    margin-top: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: 'Metropolis', sans-serif;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 1700px) {
+    .container-Card {
+        padding: 10px 10% ;
+    }
+    .container-Card1{
+        overflow: auto;
+    }
+    .Product-main-box {
+        /* background-color: red; */
+        display: grid;
+        width: 1900px;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(190px,1fr));
+
+    }
+}
+@media only screen and (max-width: 1300px) {
+    .container-Card {
+        padding: 10px 10% ;
+    }
+    .container-Card1{
+        overflow: auto;
+    }
+    .Product-main-box {
+        /* background-color: red; */
+        display: grid;
+        width: 1500px;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(150px,1fr));
+
+    }
+}
+@media only screen and (max-width: 800px) {
+    .container-Card {
+        padding: 10px 0px 0px 10px ;
+    }
+    .Product-main-box {
+        /* background-color: red; */
+        display: grid;
+        width: 1100px;
+        gap: 1rem;
+        grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+
+    }
+}

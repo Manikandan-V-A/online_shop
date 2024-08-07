@@ -1,0 +1,113 @@
+.Neckband-left{
+    flex-basis: 50%;
+    /* background-color: blueviolet; */
+}
+.Neckband-right{
+    flex-basis: 50%;
+    margin-top: 0px;
+    /* background-color: aqua; */
+}
+
+.Neckband-left{
+    margin-top: 22%;
+}
+.Neckband-left h1{
+    font-size: 80px;
+    font-weight: 500;
+}
+.Neckband-left h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.Neckband-left h3{
+    font-size: 30px;
+}
+
+.Neckband-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.Neckband-img{
+    height: 80%;
+    width: 90%;
+    margin-top: 20%;
+}
+.Neckband-main{
+    height: 90vh;
+    padding: 10px 10%;
+    background: linear-gradient(rgba(255, 255, 255, 0.6),#9826af50,rgba(255, 255, 255, 0.6));
+
+}
+@media only screen and (max-width: 1100px) {
+    .Neckband-main{
+        padding: 10px 2%;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+
+    .Neckband-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .Neckband-left{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Neckband-right{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .Neckband-left{
+        margin-top: 15%;
+    }
+    .Neckband-img{
+        height: 50%;
+        width: 50%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Neckband-main{
+        padding: 10px 10%;
+    }
+    .Neckband-left{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Neckband-right{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+    }
+    .Neckband-left{
+        margin-top: 15%;
+    }
+    .Neckband-left h1{
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .Neckband-left h1 span{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .Neckband-left h3{
+        font-size: 20px;
+    }
+    .Neckband-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+}

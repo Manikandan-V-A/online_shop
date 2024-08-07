@@ -1,0 +1,110 @@
+ .Watch-left{
+    flex-basis: 50%;
+    margin-top: 0px;
+}
+.Watch-right{
+    flex-basis: 50%;
+    margin-top: 0px;
+       text-align: right;
+}
+
+.Watch-right{
+    margin-top: 22%;
+}
+.Watch-right h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.Watch-right h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.Watch-right h3{
+    font-size: 30px;
+}
+
+.Watch-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.Watch-img{
+    height: 90%;
+    width: 100%;
+    margin-top: 10%;
+}
+.Watch1-main{
+    height: 90vh;
+    padding: 10px 10%;
+    background: linear-gradient(#00aeff04,#ffd00041,#ffd0000a);
+    background: linear-gradient(#00aeff04,#ff00003f,#ffffff6b,#0044ff31,#ffd0000a);
+}
+
+
+@media only screen and (max-width: 920px) {
+
+    .Watch-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .Watch-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Watch-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .Watch-right{
+        margin-top: 15%;
+    }
+    .Watch-img{
+        height: 50%;
+        width: 50%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Watch-main{
+        padding: 10px 10%;
+        background: linear-gradient(#00aeff04,#ffd00041,#ffd0000a);
+    }
+    .Watch-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Watch-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+    }
+    .Watch-right{
+        margin-top: 15%;
+    }
+    .Watch-right h1{
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .Watch-right h1 span{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .Watch-right h3{
+        font-size: 20px;
+    }
+    .Watch-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+}

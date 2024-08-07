@@ -1,0 +1,47 @@
+.toggle-button {
+  display: none; /* Hide by default */
+}
+
+.drawer {
+    display: none;
+ }
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: -250px; 
+  width: 250px;
+  height: 100%;
+  background-color: white;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+  transition: right 0.3s ease;
+  z-index: 1050; 
+}
+
+.drawer.open {
+  right: 0;
+}
+
+.drawer .nav-link {
+  padding: 5px 0px 0px 15px ;
+  text-align: left;
+}
+
+
+@media (max-width: 1500px) {
+  .toggle-button {
+    display: block; 
+    z-index: 1150;
+    position: absolute;
+  }
+
+  .drawer {
+    display: block;
+  }
+  button{
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+      }
+}
+

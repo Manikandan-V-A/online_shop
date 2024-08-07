@@ -1,0 +1,126 @@
+.Partyspeaker-left{
+    flex-basis: 60%;
+    margin-top: 5%;
+}
+.Partyspeaker-right{
+    flex-basis: 40%;
+    margin-top: 0px;
+       text-align: right;
+}
+
+.Partyspeaker-right{
+    margin-top: 22%;
+}
+.Partyspeaker-right h1{
+    font-size: 80px;
+    font-weight: lighter;
+}
+.Partyspeaker-right h1 span{
+    font-size: 80px;
+    font-weight: 700;
+}
+.Partyspeaker-right h3{
+    font-size: 30px;
+}
+
+.Partyspeaker-btn{
+    margin-top: 20px;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.Partyspeaker-img{
+    height: 90%;
+    width: 90%;
+    margin-top: 2%;
+    /* background-color: aqua; */
+}
+.Partyspeaker-main{
+    height: 90vh;
+    padding: 10px 10%;
+    background: linear-gradient(#00aeff04,#ffd00041,#ffd0000a);
+}
+@media only screen and (max-width: 1700px) {
+    .Partyspeaker-img{
+        height: 90%;
+        width: 90%;
+        margin-top: 2%;
+        /* background-color: aqua; */
+    }
+    .Partyspeaker-left{
+        flex-basis: 50%;
+        margin-top: 5%;
+    }
+    .Partyspeaker-right{
+        flex-basis: 40%;
+        margin-top: 15%;
+        text-align: right;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+
+    .Partyspeaker-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .Partyspeaker-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Partyspeaker-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+        /* background-color: blueviolet; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .Partyspeaker-right{
+        margin-top: 15%;
+    }
+    .Partyspeaker-img{
+        height: 50%;
+        width: 50%;
+        margin-top: 0%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .Partyspeaker-main{
+        padding: 10px 10%;
+        background: linear-gradient(#00aeff04,#ffd00041,#ffd0000a);
+    }
+    .Partyspeaker-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Partyspeaker-left{
+        flex-basis: 100%;
+        margin-top: 15%;
+        height: 50%;
+    }
+    .Partyspeaker-right{
+        margin-top: 15%;
+    }
+    .Partyspeaker-right h1{
+        font-size: 50px;
+        font-weight: lighter;
+    }
+    .Partyspeaker-right h1 span{
+        font-size: 50px;
+        font-weight: 700;
+    }
+    .Partyspeaker-right h3{
+        font-size: 20px;
+    }
+    .Partyspeaker-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+}

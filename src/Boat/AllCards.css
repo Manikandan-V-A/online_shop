@@ -1,0 +1,312 @@
+.Allcards-mini{
+    flex-basis: 10%;
+    text-align: center; 
+}
+.Allcards-mini-btn{
+    margin-top: 10px;
+    height: 15%;
+    width: 80%;
+    border: 1px solid rgb(197, 197, 197);
+    border-radius: 10px;
+    padding: 5px;
+}
+.Allcards-mini-img{
+    height: 100%;
+    width: 100%;
+    margin-top: 0%;
+    border-radius: 10px;
+    transition: transform 0.5s;
+}
+.Allcards-mini-img:hover{
+    transform: scale(0.8);
+}
+.Allcards-left{
+    flex-basis: 40%;
+    text-align: center; 
+    /* background-color: red; */
+}
+.Allcards-img{
+    height: 95%;
+    width: 95%;
+    margin-top: 0%;
+    border-radius: 20px;
+}
+.Allcards-right{
+    flex-basis: 50%;
+    background-color: rgba(255, 255, 255, 0.062);
+    /* margin-top: 0px; */
+       /* text-align: right; */
+}
+
+.Allcards-right{
+    margin-top: 0%;
+}
+
+.header-star{
+    font-size: 13px;
+    font-family: 'Metropolis' sans-serif;
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #5c5c5cc5;
+    font-weight: 700;
+}
+.header-check{
+    height: 13px;
+    width: 13px;
+}
+.star1{
+    font-size: 13px;
+    color: rgb(231, 231, 0);
+}
+.Allcards-right .card-name{
+    margin-top: 2%;
+    margin-left: 5%;
+}
+.Allcards-right .card-name span{
+    font-weight: 700;
+    font-family: 'Metropolis' sans-serif;
+    margin: 0.2rem 0;
+    font-size: 28px;
+    line-height: normal;
+    letter-spacing: -1.12px;    
+    color: #1a2024 !important;
+}
+.Allcards-right p{
+    margin-left: 5%;
+    margin-top: 0%;
+}
+.Allcards-right p span{
+    margin: 0.1rem 0; 
+    font-size: 15px;
+    /* line-height: normal; */
+    /* letter-spacing: -0.12px; */
+    color: #1a20247e !important;
+    font-weight: normal;
+}
+.Allcards-right .card-name-h3{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 23px;
+    font-family: 'Metropolis' sans-serif;
+    color: rgb(54, 54, 54);
+    font-weight:700; 
+}
+.Allcards-right .card-name-h3 del{
+    font-size: 20px;
+    color: rgba(170, 170, 170, 0.904);
+}
+.Allcards-right .card-name-h3 span{
+    font-size: 20px;
+    color: rgba(0, 255, 157, 0.904);
+}
+.Allcards-right .card-name-h4{
+    margin-left: 5%;
+    margin-top: 3%;
+    font-size: 15px;
+    font-weight:800;    
+    color: rgb(56, 56, 56);
+}
+.Allcards-right .card-name-h5{
+    margin-left: 5%;
+    margin-top: 2%;
+    font-size: 30px;
+    font-weight: 500;
+}
+.Allcards-right .card-name-h5 .iconcolor{
+    border: 1px solid rgba(100, 100, 100, 0.678);
+    border-radius: 100%;
+    margin-right: 10px;
+    transition: transform 0.5s;
+}
+
+.Allcards-right .card-name-h5 .iconcolor:hover{
+    border: 1px solid black;
+    border-radius: 100%;
+    transform: translateY(-5px);
+}
+.Allcards-right .card-name-h6{
+    margin-left: 5%;
+    margin-top: 4%;
+    font-size: 15px;
+    font-weight: 800;
+}
+.check-Delivery{
+    margin-left: 5%;
+    margin-top: 3%;
+    width: 50%;
+    text-align: left;
+    background-color: rgba(143, 173, 173, 0.116);
+    border-radius: 10px;
+}
+.check-Delivery .free{
+    font-family: 'Metropolis' sans-serif;
+    font-weight: 500;
+    color: rgba(0, 194, 120, 0.904);
+    margin-left: 0%;
+    padding: 10px 0px 0px 15px ;
+    font-size: 15px;
+}
+.check-Delivery .free .by{
+    font-family: 'Metropolis' sans-serif;
+    font-weight: 700;
+    color: #000;
+}
+.check-Delivery .order{
+    margin-left: 0%;
+    padding: 0px 0px 10px 15px ;
+    font-size: 15px;
+    color: #4b4b4b;
+    font-weight: normal;
+}
+.check-Delivery .order .hrs{
+    font-family: 'Metropolis' sans-serif;
+    font-weight: 700;
+    color: #d41b1b;
+}
+.Allcards-btn{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: white;
+    width: 24%;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.877);
+    transition: transform 0.5s;
+}
+.Allcards-btn i{
+    color: white;
+    font-size: 15px;
+}
+.Allcards-btn:hover{
+    transform: translateY(-5px);
+}
+.Allcards-btn.buy{
+    margin-left:1%;
+}
+
+.Allcards-main{
+    height: 75vh;
+    padding: 10px 10%;
+    /* background: linear-gradient(#00aeff04,#ffd00041,#ffd0000a); */
+}
+
+@media only screen and (max-width: 1350px) {
+    .Allcards-btn{
+        width: 45%;;
+    }
+}
+
+@media only screen and (max-width: 920px) {
+    .Allcards-main{
+        padding: 10px 10%;
+        height: 50%;
+    }
+    .Allcards-mini{
+        flex-basis: 20%;
+    }
+    .Allcards-mini-btn{
+        margin-top: 5px;
+        height: 17%;
+        width: 90%;
+    }
+    .Allcards-left{
+        flex-basis: 80%;
+    }
+
+    .Allcards-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Allcards-right{
+        margin-top: 15%;
+    }
+    .Allcards-btn{
+        margin-left: 5%;
+        margin-top: 5%;
+        width: 90%;
+    }
+    .Allcards-btn.buy{
+        margin-left: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    .header-star{
+        margin-top: 0%;
+        font-weight: 700;
+    }
+    .Allcards-main{
+        padding: 10px 10%;
+    }
+    .Allcards-right{
+        flex-basis: 100%;
+        /* background-color: aqua; */
+    }
+    .Allcards-mini-btn{
+        height: 17%;
+        width: 100%;
+        padding: 1px;
+    }
+    .Allcards-mini-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+        border-radius: 10px;
+    }
+    .Allcards-left{
+        flex-basis: 80%;
+        /* margin-top: 15%;
+        height: 50%; */
+    }
+    .Allcards-right{
+        margin-top: 15%;
+    }
+    .Allcards-img{
+        height: 100%;
+        width: 100%;
+        margin-top: 0%;
+    }
+    .Allcards-right .card-name{
+        margin-top: 5%;
+        margin-left: 5%;
+    }
+    .Allcards-right .card-name span{
+        font-size: 35px;
+        font-weight: 700;
+    }
+    .Allcards-right h3{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .Allcards-right h4{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 17px;
+        font-weight:700;    
+        color: rgb(56, 56, 56);
+    }
+    .Allcards-right h5{
+        margin-left: 5%;
+        margin-top: 5%;
+        font-size: 18px;
+        font-weight: 500;
+    }
+    .Allcards-right h6{
+        margin-left: 5%;
+        font-size: 17px;
+        font-weight: 700;
+    }
+    .check-Delivery{
+        width: 90%;
+    }
+    .check-Delivery .free .by{
+        font-size: 15px;
+    }
+    .check-Delivery .order .hrs{
+        font-size: 15px;
+    }
+
+}
