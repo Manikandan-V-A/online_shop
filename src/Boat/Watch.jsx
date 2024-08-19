@@ -1,6 +1,6 @@
 import React from "react";
 import './Watch.css'
-import ImgWatch from './assets/iqoo1.png'
+import ImgWatch from './assets/watch.png'
 import Imgtws1 from './assets/watch1.webp'
 import Imgtws2 from './assets/watch2.webp'
 import Imgtws3 from './assets/watch3.webp'

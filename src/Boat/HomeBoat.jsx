@@ -52,8 +52,6 @@ import Product9 from './assets/product9.png'
 
 
 import { WatchBoat } from "./Watch";
-import { PartyspeakerBoat } from "./Partyspeaker";
-import { SpeackerBoat } from './Speacker';
 
 export function HomeBoat() {
  const name=1;

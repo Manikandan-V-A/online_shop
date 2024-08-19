@@ -2,14 +2,10 @@ import React from 'react';
 import './Personalisation.css'
 import { useNavigate } from 'react-router-dom';
 
-// import Imgtws1 from './assets/tws1.gif'
-// import Imgtws2 from './assets/tws2.webp'
-// import Imgtws3 from './assets/tws3.webp'
-// import Imgtws4 from './assets/tws4.gif'
-import Imgtws1 from './assets/1mobile.jpg'
-import Imgtws2 from './assets/2mobile.jpg'
-import Imgtws3 from './assets/3mobile.jpg'
-import Imgtws4 from './assets/4mobile.jpg'
+import Imgtws1 from './assets/tws1.gif'
+import Imgtws2 from './assets/tws2.webp'
+import Imgtws3 from './assets/tws3.webp'
+import Imgtws4 from './assets/tws4.gif'
 
 import Imgwatch1 from './assets/watch1.webp'
 import Imgwatch2 from './assets/watch2.webp'

@@ -6,7 +6,6 @@
 }
 .bottom-main{
     margin-top: 20px;
-    height: 200px;
     /* background-color: red; */
     display: flex;
     justify-content: center;
@@ -46,6 +45,7 @@
 .h2{
     margin-top: 20px;
     font-size: 12px;
-    color: #0000005e;
+    color: #0000009c;
     text-align: center;
+    margin-bottom: 20px;
 }
